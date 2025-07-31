@@ -1,0 +1,205 @@
+body {
+    background-color: rgb(126, 126, 126);
+    overflow-x: hidden;
+}
+
+.standard {
+    background-color: white;
+}
+
+.nav-bar a img {
+    width:50px;
+    height:auto;
+}
+
+.active li{
+    background-color: black;
+    color: white;
+}
+
+.nav-bar{
+    background-color: rgb(51, 192, 208);
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.nav a{
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+    margin: 0px 5px 0px 5px;
+    height:100%;
+    width:20vh;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Impact;
+}
+
+.nav li {
+    height:100%;
+    width:auto;
+}
+
+.nav a:nth-child(1) {
+    background-color: rgb(201, 58, 58);
+
+}
+
+.nav a:nth-child(2) {
+    background-color: rgb(182, 201, 58);
+
+}
+
+.nav a:nth-child(3) {
+    background-color: rgb(65, 201, 58);
+
+}
+
+.nav a:nth-child(4) {
+    background-color: rgb(72, 58, 201);
+
+}
+
+.nav a:nth-child(5) {
+    background-color: rgb(184, 58, 201);
+
+}
+
+.nav a:nth-child(6) {
+    background-color: rgb(87, 41, 41);
+
+}
+
+.nav a:nth-child(7) {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.nav a:nth-child(8) {
+    background-color: rgb(107, 107, 107);
+
+}
+
+
+
+/*content*/
+.content{
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+
+.box1{
+    position:relative;
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 228, 68);
+    width:80%;
+    height:50vh;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: Impact;
+    text-align: center;
+}
+
+.box2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(187, 120, 58);
+    
+    width:30%;
+    margin-left:5px;
+    height:50vh;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Impact;
+    text-align: center;
+}
+
+.box3{
+    color: rgb(0, 0, 0);
+    position:relative;
+    bottom:35px;
+    background-color: rgb(77, 176, 68);
+    width:100%;
+    height:37vh;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: Impact;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.aboutus {
+    font-size: 50px;
+}
+
+.welcome {
+    font-size: 50px;
+}
+
+.box2 img{
+    margin:5%;
+    width: 150px ;
+    height: 100px;
+    
+ }
+
+ .box2 img:nth-child(1){
+    margin-bottom: 10%;
+ }
+ .box2 img:nth-child(2){
+    margin-bottom: 10%;
+ }
+
+ .red a{
+    text-decoration: none;
+    color: inherit;
+    margin: 25px;
+    padding: 15px;
+    background-color: rgb(58, 201, 63);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Impact;
+ }
+
+ /*Flag display*/
+
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(126, 126, 126);
+
+ }
+
+.display {
+    margin:20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ .display img {
+    width: 200px;
+    height:100px;
+ }
+
+ .header{
+    text-align: center;
+    font-family: Impact;
+    font-size: 40px;
+ }
